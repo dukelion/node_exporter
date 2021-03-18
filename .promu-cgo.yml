@@ -22,5 +22,11 @@ tarball:
 crossbuild:
     platforms:
         - darwin/amd64
+        - dragonfly
+        - freebsd/amd64
+        - freebsd/arm
+        - freebsd/386
         - netbsd/amd64
+        - netbsd/arm
         - netbsd/386
+        - openbsd/arm
